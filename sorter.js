@@ -2,7 +2,7 @@
 	var my_array = new Array();
 	var my_index = -1;  // 被点击的表头所在的位置
 	var index_of_table = -1;  // 在哪个表格
-	$(document).ready(function(){
+	$(function(){
 		$("tr:odd").css("background-color","white");
 		$("th").append("<img src='ascend.png', alt='ascend.png' />");
 		$("th img").css("float","right");
