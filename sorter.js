@@ -4,7 +4,7 @@
 	var index_of_table = -1;  // 在哪个表格
 	$(function(){
 		$("tr:odd").css("background-color","white");
-		$("th").append("<img src='ascend.png', alt='ascend.png' />");
+		$("th").append("<img src='ascend.png', alt='png' />");
 		$("th img").css("float","right");
 		$("thead th").click(sort_table);
 	});
