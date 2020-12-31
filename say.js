@@ -8,4 +8,5 @@ function hi() {
 
 function hello() {
   console.log('hello')
+  return 'hello'
 }
