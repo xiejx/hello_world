@@ -5,3 +5,7 @@ function say() {
 function hi() {
   console.log(hi)
 }
+
+function hello() {
+  console.log('hello')
+}
